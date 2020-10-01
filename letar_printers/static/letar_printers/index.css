@@ -1,0 +1,188 @@
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+ul.social-media li {
+  display: inline;
+  
+
+}
+
+.back-image{
+  background-image: url('https://onlineplus.com.au/wp-content/uploads/2016/11/slider-background-1.jpg');
+  background-repeat: no-repeat;
+  width: 100%;;
+  position: relative;
+  height: auto;
+
+
+}
+#nav01 {
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  max-width: 100%;
+  text-align: center;
+  background-color: blueviolet;
+  height:auto;
+}
+.image {
+  margin-right: 1px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border: solid black 1px;
+  padding: 2px;
+}
+.paragraph {
+  font-family: sans-serif;
+  font-size: large;
+  
+}
+
+#slogan {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding: 3px;
+
+}
+
+ul#navigation li {
+
+  font-weight: bold;
+  display: inline;
+  font-family: sans-serif;
+  color: rgb(218, 72, 72);
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 5px;
+  color: rgb(202, 202, 233);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #302f4b;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+
+.gallary {
+  text-align: center;
+}
+#home {
+  display: inline-block;
+  margin: 5vw;
+  background-color: white;
+  text-align: left;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+
+}
+#home p {
+ 
+  padding: 20px;
+  color: black;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  width: 400px;
+}
+.a01 {
+  color: white;
+  text-decoration: none;
+}
+.a01[href="#"] {
+  display: inline-block;
+  width: calc(33.3333% - 1.6rem);
+  margin: .8rem;
+  background-color: white;
+  vertical-align: top;
+  box-sizing: border-box;
+  float: left;
+  
+
+}
+.image03 {
+  max-width:100%;
+}
+
+.covid-19{
+  background-image: url('https://post.greatist.com/wp-content/uploads/sites/3/2020/04/Doctors-working-at-hospital-1200x628.jpg');
+  background-repeat: no-repeat;
+  max-width: 100%;
+  position: relative;
+  height: auto;
+}
+
+.contact{
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: aliceblue;
+
+}
+.SM{
+  color: white;
+  
+}
+
+
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.google-map{
+  text-align: center;
+  padding: 5px;
+
+}
