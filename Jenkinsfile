@@ -5,9 +5,7 @@ pipeline {
             steps {
                 echo 'Building ...'
                 sh 'whoami'
-                sh 'rm -rf printers'
-                sh 'echo apple103726 | sudo -S cp -r /home/tarnizzy/Django_Projects/printers/ /home/tarnizzy/.jenkins/workspace/pipeline_new'
-                sh 'docker build --tag 31801943/printers:2 ./printers/'
+                sh 'docker build --tag 31801943/printers:2 .'
                 sh 'docker images'
             
             }
