@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Building ...'
                 sh 'whoami'
-                sh 'docker build --tag 31801943/printers:2 .'
+                sh 'docker build --tag 31801943/printers:3 .'
                 sh 'docker images'
             
             }
@@ -16,7 +16,7 @@ pipeline {
             steps {
                 echo 'Pushing ...'
                 sh 'docker login docker.io'
-                sh 'docker push 31801943/printers:2'
+                sh 'docker push 31801943/printers:3'
             
             }
             
@@ -25,7 +25,7 @@ pipeline {
         stage('deploy') {
             steps {
                 echo 'Deploying  ...'
-                sh 'kubectl create deployment --image=31801943/printers:2 letarprinters'
+                sh 'kubectl create deployment --image=31801943/printers:3 letarprinters'
                 sh 'kubectl expose deployment letarprinters --port=8000 --target-port=8000 --type=NodePort'
                 sh 'kubectl get service'
             
